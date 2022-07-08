@@ -20,7 +20,7 @@ Existen múltiples implementaciones que permiten calcular correlaciones lineales
 
 Para estudiar la relación lineal existente entre dos variables continuas es necesario disponer de parámetros que permiten cuantificar dicha relación. Uno de estos parámetros es la **covarianza**, que mide el grado de variación conjunta de dos variables aleatorias.
 
-$$Covarianza~muestral=Cov(X,Y)=\frac{\sum^n_{i=1}(x_i - \bar{x})(y_i-\bar{y})}{N-1}$$
+$$Covarianza~muestral=Cov(X,Y)=\frac{\sum_{i=1}^n(x_i-\bar{x})(y_i-\bar{y})}{N-1}$$
 
 donde $\bar{x}$ e $\bar{y}$ son la media de cada variable, y $x_i$ e $y_i$ son el valor _i-ésimo_ de las variables.
 
